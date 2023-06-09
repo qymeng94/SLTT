@@ -65,8 +65,6 @@ We give an example for CIFAR-10 as following.
 
 ## Credits
 
-The code for data preprocessing and neuron models is based on the [spikingjelly](https://github.com/fangwei123456/spikingjelly) repo. The code for some utils is from the [pytorch-classification](https://github.com/bearpaw/pytorch-classification) repo. 
-The code for data augmentation of DVS-CIFAR10 is from the  [
-temporal_efficient_training](https://github.com/brain-intelligence-lab/temporal_efficient_training) repo.
+The code for data preprocessing and neuron models is based on the [spikingjelly](https://github.com/fangwei123456/spikingjelly) repo. The code for some utils is from the [pytorch-classification](https://github.com/bearpaw/pytorch-classification) repo.
 
 
