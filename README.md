@@ -20,7 +20,7 @@ CIFAR-10, CIFAR-100, DVS-CIFAR10, and DVS-Gesture:
     python train_SLTT.py -data_dir ./data -dataset cifar100 -model spiking_resnet18 -amp -T_max 200 -epochs 200 -weight_decay 5e-4
        
     # DVS-CIFAR10
-	python train_SLTT.py -data_dir ./data/cifar-dvs/ -dataset DVSCIFAR10 -T 10 -amp -drop_rate 0.3 -model spiking_vgg11_bn -lr=0.05 -weight_decay 5e-4 -mse_n_reg
+	python train_SLTT.py -data_dir ./data/CIFAR10DVS -dataset DVSCIFAR10 -T 10 -amp -drop_rate 0.3 -model spiking_vgg11_bn -lr=0.05 -weight_decay 5e-4 -mse_n_reg
 	
 	# DVS-Gesture
     python train_SLTT.py -data_dir ./data/dvsgesture -dataset dvsgesture -model spiking_vgg11_bn -T 20 -b 16 -amp -drop_rate 0.4 -weight_decay 5e-4
