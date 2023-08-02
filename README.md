@@ -1,5 +1,5 @@
 # SLTT
-This repository is the official PyTorch implementation of paper: Towards Memory- and Time-Efficient Backpropagation for Training Spiking Neural Networks.
+This repository is the official PyTorch implementation of paper: Towards Memory- and Time-Efficient Backpropagation for Training Spiking Neural Networks (ICCV2023).
 
 ## Dependencies
 - Python 3
